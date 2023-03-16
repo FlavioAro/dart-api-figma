@@ -5,8 +5,8 @@ class FigmaController {
 
   FigmaController(this.model);
 
-  Future<void> printFile(String fileId) async {
-    final jsonResponse = await model.getFile(fileId);
+  Future<void> printFile(String figmaFileId) async {
+    final jsonResponse = await model.getFile(figmaFileId);
     final responseArray = jsonResponse.toString().split(",");
 
     for (int i = 0; i < responseArray.length; i++) {
