@@ -2,12 +2,12 @@ import 'dart:convert';
 import 'package:http/http.dart' as http;
 
 void main() async {
-  final String idFigma = "56556dfnjhud67nfkd87";
+  final String figmaFileId = "56556dfnjhud67nfkd87";
   final String personalAccessToken =
       "fijaidjf843ju8j3843984jjjshundswtf4ydsjfgqkipd";
 
   final response = await http.get(
-    Uri.parse("https://api.figma.com/v1/files/$idFigma"),
+    Uri.parse("https://api.figma.com/v1/files/$figmaFileId"),
     headers: {"X-Figma-Token": personalAccessToken},
   );
 
