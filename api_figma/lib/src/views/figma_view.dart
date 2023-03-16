@@ -5,9 +5,9 @@ class FigmaView {
 
   FigmaView(this.controller);
 
-  void printFile(String fileId) async {
+  void printFile(String figmaFileId) async {
     try {
-      await controller.printFile(fileId);
+      await controller.printFile(figmaFileId);
     } catch (e) {
       print(e);
     }
