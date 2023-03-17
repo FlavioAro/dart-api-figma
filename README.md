@@ -1,5 +1,5 @@
 # Dart API Figma
-This project consumes tokens created in Figma.
+This Dart project consumes tokens created with the Figma API.
 
 ## Documentation
 https://www.figma.com/developers/api
