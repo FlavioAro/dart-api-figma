@@ -5,8 +5,9 @@ import 'package:api_figma/src/controllers/figma_controller.dart';
 import 'package:api_figma/src/views/figma_view.dart';
 
 void main() {
-  final figmaFileId = "56556dfnjhud67nfkd87";
-  final personalAccessToken = "sijrisjrisj47n_njusdn65964fddffdjnfd453vgvg";
+  final figmaFileId = "56556dfnjhud67nfkd87"; // Edit Here
+  final personalAccessToken =
+      "sijrisjrisj47n_njusdn65964fddffdjnfd453vgvg"; // Edit Here
 
   final figmaModel = FigmaModel(personalAccessToken);
   final figmaController = FigmaController(figmaModel);

@@ -12,5 +12,8 @@ class FigmaController {
     for (int i = 0; i < responseArray.length; i++) {
       print("Counter: ($i) = ${responseArray[i]}");
     }
+
+    // final fontSizeHeadingXl = responseArray[2021].toString().split(": ");
+    // print(fontSizeHeadingXl[1]);
   }
 }
